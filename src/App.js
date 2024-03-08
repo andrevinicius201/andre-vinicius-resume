@@ -1,24 +1,20 @@
 import React from "react";
-// import {
-//     BrowserRouter as Router,
-//     Routes,
-//     Route,
-// } from "react-router-dom";
+import { Accordion } from 'flowbite-react';
 
 import Menu from "./components/Menu";
 import About from "./components/About";
 import WorkingHistory from "./components/WorkingHistory";
 import Certifications from "./components/Certifications";
 import Skills from "./components/Skills";
+import ContentAccordion from "./components/ContentAccordion";
  
 function App() {
     return (
         <div>
             <Menu/>
             <About/>
-            <WorkingHistory/>
-            <Certifications/>
-            <Skills/>
+            <ContentAccordion/>
+
         </div>
         
             
