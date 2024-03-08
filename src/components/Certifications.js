@@ -3,7 +3,7 @@ import activeCertifications from "../data/certifications.js"
 export default function Certifications(){
     
     return (
-        <div>
+        <div id="certifications">
             <h2 class="text-4xl font-extrabold dark:text-white text-center mt-6 .."> Certifications </h2>
             <p class="my-4 text-lg text-gray-500 text-center"> You can also checkout my current active cloud certifications </p>
 

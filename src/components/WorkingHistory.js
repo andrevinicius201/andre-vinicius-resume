@@ -5,7 +5,7 @@ import experienceData from "../data/experiences.js"
 export default function WorkingHistory() {
 
   return (
-    <section >
+    <section id="working-history">
       
     <h2 class="text-4xl font-extrabold dark:text-white text-center mt-6 ..">My working and studying experiences</h2>
     <p class="my-4 text-lg text-gray-500 text-center"> These are the companies and schools that are important parts of my carreer </p>
