@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.company-logo {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+
+.cert-logo {
+    max-width: 300px;
+    max-height: 300px;
+}
