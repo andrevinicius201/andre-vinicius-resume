@@ -1,7 +1,9 @@
+import skillsData from '../data/skills'
+
 export default function Skills(){
     return (
         
-
+    
 
 
 <div class="relative overflow-x-auto shadow-md sm:rounded-lg bg-primary-700">
@@ -19,15 +21,25 @@ export default function Skills(){
             </tr>
         </thead>
         <tbody>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Back-end technologies
-                </th>
-                <td class="px-6 py-4">
-                    Javascript (Node.js), Python, AWS Lambda, API Gateway, EventBridge, Containers (Docker, ECS), Microsservices
-                </td>
-             
-            </tr>
+
+            {
+                skillsData.map(skill => (
+
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            {skill.category}
+                        </th>
+                        <td class="px-6 py-4">
+                            {skill.skillList}
+                        </td>  
+                    </tr>
+    
+                ))
+            }
+
+
+
+            
            
         </tbody>
     </table>

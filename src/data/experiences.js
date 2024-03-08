@@ -15,7 +15,7 @@ const experienceData = [
     },
     {
         title: "Amazon Web Services (AWS) - Solutions Architect",
-        description: "Worked as a Solutions Architect, defining architectures to solve a wide range of technology challenges. Focus on serverless solutions and technologies such as RESTful APIs (API Gateway), GraphQL (AppSync), Authentication and Authorization (OAuth, Cognito, JSON Web Token/JWT), messaging and integration services (SQS, SNS, EventBridge), streaming, microservices and event-driven architectures using Lambda functions and containers (Docker, ECS, EKS, ECR)",
+        description: "Worked as a Solutions Architect, designing and implementing solutions for a wide range of technology challenges. Focus on serverless technologies and technologies such as RESTful APIs (API Gateway), GraphQL (AppSync), Authentication and Authorization (OAuth, Cognito, JSON Web Token/JWT), messaging and integration services (SQS, SNS, EventBridge), streaming, microservices and event-driven architectures using Lambda functions and containers (Docker, ECS, EKS, ECR)",
         startDate: "May 2022",
         endDate: "February 2024",
         imgPath: "img/aws.png"
