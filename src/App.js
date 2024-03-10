@@ -13,7 +13,10 @@ function App() {
         <div>
             <Menu/>
             <About/>
-            <ContentAccordion/>
+            {/* <ContentAccordion/> */}
+            <WorkingHistory/>
+            <Certifications/>
+            <Skills/>
 
         </div>
         
