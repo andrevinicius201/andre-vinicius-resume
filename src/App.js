@@ -10,15 +10,12 @@ import ContentAccordion from "./components/ContentAccordion";
  
 function App() {
     return (
-        <div>
+        <div className="max-w-full">
             <Menu/>
             <About/>
             <Skills/>
-            {/* <ContentAccordion/> */}
             <WorkingHistory/>
             <Certifications/>
-            
-
         </div>
         
             
