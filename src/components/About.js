@@ -2,18 +2,28 @@ export default function About() {
   return (
 
     <section class="bg-gray-100 flex justify-center mt-20">
-        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 mt-5">
+        <div class="grid max-w-full px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 mt-5 ">
             <div class="mr-auto place-self-center lg:col-span-7">
-                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Hi! I'm André</h1>
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Hi! I'm André </h1>
                 <p class="mb-3 text-lg text-gray-500 md:text-xl dark:text-gray-400">
-                  And my job is to design, code and maintain back-end software. 
+                  And my job is to design, code and maintain software. 
                 </p>
 
-                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                <p class="max-w-2xl mb-2 font-light text-gray-500  md:text-lg lg:text-xl dark:text-gray-400">
+                  I currently work for Grupo Carrefour Brasil as a <span class="font-semibold"> back-end  Javascript (Node) </span> and <span class="font-semibold"> Python (FastAPI) </span> software engineer, responsible for developing solutions for loyalty programs and coupouns issuing.  
+                </p>
+
+                <p class="max-w-2xl mb-2 font-light text-gray-500  md:text-lg lg:text-xl dark:text-gray-400">
                   
-                  I currently work for Grupo Carrefour Brasil as a back-end software engineer. 
-                  I love Web App Development, Cloud Solutions and Serverless Applications, always looking for new things to explore and ways to automate daily tasks. 
-                  If you want to see more information about my background, please check my LinkedIn profile and feel free to send me a message from there or e-mail. 
+                  With a strong background on AWS and GCP, I develop cloud applications designed for the web. Out of the work, I'm always looking for new things to explore and ways to automate daily tasks. 
+                  
+                </p>
+                <p class="max-w-2xl mb-2 font-light text-gray-500  md:text-lg lg:text-xl dark:text-gray-400">
+        
+                  My focus areas are Cloud, Microsservices and Serverless Applications, always applying industry-standards integration patterns.
+                </p>
+                <p class="max-w-2xl mb-2 font-light text-gray-500  md:text-lg lg:text-xl dark:text-gray-400">
+                If you want to see more information about my background, please check my <span class="font-semibold">LinkedIn profile </span> and feel free to <span class="font-semibold"> send me a message </span> from there or e-mail. 
                  
                 </p>
                 <a href="https://www.linkedin.com/in/andvini/" target="_blank" class="max-[365px]:w-full md:w-3/4 inline-flex items-center justify-center px-5 py-3 mr-3 mb-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
