@@ -53,17 +53,7 @@ export default function Skills(){
 
 
             <table class="table-auto w-full mx-auto text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 p-2">
-                <thead class="text-xs uppercase bg-primary-700 text-white">
-                    <tr>
-                        <th scope="col" class="px-6 py-3 w-1/6">
-                            Technology category
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                            Working skills
-                        </th>
-                        
-                    </tr>
-                </thead>
+                
                 <tbody>
 
                     {
