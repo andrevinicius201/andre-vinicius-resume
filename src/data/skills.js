@@ -3,13 +3,13 @@ const imageList = ["node.png", "javascript.png", "python.png", "typescript.png"]
 const skillsData = [
     {
         category: "Back-end software development",
-        skillList: "Javascript (Node.js), Typescript, Python (FastAPI), Test-Driven Development (TDD). Practical experience applying SOLID, Clean Code and Domain-Driven Design (DDD) principles",  
-        techImages: ["javascript.png", "node.png", "typescript.png", "fastapi.svg"]
+        skillList: "Javascript (Node.js), Typescript, Python (FastAPI), Test-Driven Development (TDD). Practical experience applying SOLID, Clean Code and Domain-Driven Design (DDD) principles. Swagger API documentation",  
+        techImages: ["javascript.png", "node.png", "typescript.png", "fastapi.svg", "python.svg"]
     },
     {
         category: "Cloud Applications and Integration Technologies",
-        skillList: "AWS Lambda, GCP Cloud functions, API Gateway, EventBridge, Pub/Sub technologies (Amazon SQS and GCP Pub/Sub). Microsservices and integration patterns, such as CQRS, SAGA and transactional outbox",  
-        techImages: ["gcp.svg", "aws.svg"]
+        skillList: "APIs development. AWS Lambda, GCP Cloud functions, API Gateway, EventBridge, Pub/Sub technologies (Amazon SQS and GCP Pub/Sub) and notifications (Amazon SNS). Microsservices and integration patterns, such as CQRS, SAGA and transactional outbox",  
+        techImages: ["aws.svg", "gcp.svg", "lambda.svg", "pubsub.png", "sqs.svg"]
     },
 
     {
@@ -24,16 +24,18 @@ const skillsData = [
     },
     {
         category: "Devops, application platforms, infrastructure and monitoring/observability",
-        skillList: "Strong fundamentals on Networking configuration and security topics (subnets, NACL and statefull firewals). Hands-on experience with EC2, ECS/Fargate, Docker and Kubernetes and Cloudwatch. Experienced in Linux systems and Devops practices, such as Continuous Integration / Continuous Delivery using industry standard technologies (Git, Gitlab, Github actions)",  
-        techImages: ["kubernets.svg","docker.svg"]
+        skillList: "Strong fundamentals on Networking configuration and security topics (subnets, NACL and statefull firewals). Hands-on experience with EC2, ECS/Fargate, Docker and Kubernetes and Cloudwatch. Experienced in Linux systems and Devops practices, such as Continuous Integration / Continuous Delivery using industry standard technologies (Git, Gitlab, Github actions). Infrastructure as Code (Terraform, Cloudformation)",  
+        techImages: ["kubernets.svg","docker.svg","cloudwatch.png", "git-icon", "terraform.svg", "cloudformation.png"]
     },
     {
         category: "Data",
         skillList: "Data ingestion, storage and processing. ETL, Data lake, Data Warehousing. Technologies: Amazon Glue, Apache Spark, Redshift, Google Big Query, Amazon Athena, Quicksight. Experience with MySQL, PostgreSQL, MongoDB, DynamoDB and AWS RDS / Aurora",  
+        techImages: ["glue.png", "hadoop.svg"]
     },
     {
         category: "AI and ML",
         skillList: "Generative AI usage through hubs such as Amazon Bedrock and purpose-built ML services (Amazon Personalize, Rekognition, Comprehend, Polly, Transcribe, Textract)",  
+        techImages: ["bedrock.png", "rekognition.jpg", "spark.svg"]
     },
 ]
 
