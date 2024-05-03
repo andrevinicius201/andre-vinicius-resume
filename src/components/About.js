@@ -4,23 +4,21 @@ export default function About() {
     <section class="bg-gray-100 flex justify-center mt-20">
         <div class="grid max-w-full px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 mt-5 ">
             <div class="mr-auto place-self-center lg:col-span-7">
-                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Hi! I'm André </h1>
-                <p class="mb-3 text-lg text-gray-500 md:text-xl dark:text-gray-400">
-                  And my job is to design, code and maintain software. 
-                </p>
-
+                <h1 class="max-w-xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl"> André Vinícius </h1>
+                <h1 class="max-w-xl mb-4 text-xl font-semibold tracking-tight leading-none md:text-xl xl:text-xl"> Back-end software engineer </h1>
+                
                 <p class="max-w-2xl mb-2 font-light text-gray-500  md:text-lg lg:text-xl dark:text-gray-400">
-                  I currently work for Grupo Carrefour Brasil as a <span class="font-semibold"> back-end  Javascript (Node) </span> and <span class="font-semibold"> Python (FastAPI) </span> software engineer, responsible for developing solutions for loyalty programs and coupouns issuing.  
+                  I currently work for Grupo Carrefour Brasil as a <span class="font-semibold"> back-end  Javascript (Node) </span> and <span class="font-semibold"> Python (FastAPI) </span> software engineer, responsible for design, develop and test solutions for loyalty programs and discount coupons issuing.  
                 </p>
 
                 <p class="max-w-2xl mb-2 font-light text-gray-500  md:text-lg lg:text-xl dark:text-gray-400">
                   
-                  With a strong background on AWS and GCP, I develop cloud applications designed for the web. Out of the work, I'm always looking for new things to explore and ways to automate daily tasks. 
+                  With a strong background on <span class="font-semibold"> AWS </span> and <span class="font-semibold"> GCP </span>, I develop cloud applications designed for the web. Out of the work, I'm always looking for new things to explore and ways to automate daily tasks. 
                   
                 </p>
                 <p class="max-w-2xl mb-2 font-light text-gray-500  md:text-lg lg:text-xl dark:text-gray-400">
         
-                  My focus areas are Cloud, Microsservices and Serverless Applications, always applying industry-standards integration patterns.
+                  My focus areas are <span class="font-semibold"> Cloud, Microsservices </span> and <span class="font-semibold"> Serverless </span>Applications, always applying industry-standards integration patterns.
                 </p>
                 <p class="max-w-2xl mb-2 font-light text-gray-500  md:text-lg lg:text-xl dark:text-gray-400">
                 If you want to see more information about my background, please check my <span class="font-semibold">LinkedIn profile </span> and feel free to <span class="font-semibold"> send me a message </span> from there or e-mail. 

@@ -21,21 +21,23 @@ export default function Skills(){
 
     return (
         
-        <div id="skills" class="shadow-md sm:rounded-lg bg-primary-700 pb-10">
-            <h2 class="text-4xl font-extrabold text-white text-center mt-6 mb-6">My professional skills</h2>
-     
-            <div class="flex items-center justify-center py-4 md:py-8 flex-wrap">
-                     
-                <span  onClick={updateTechGallery}class="mb-2 bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300">Back-end software development</span>
-                <span  onClick={updateTechGallery}class="mb-2 bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">Cloud Applications and Integration Technologies</span>
-                <span  onClick={updateTechGallery}class="mb-2 bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">Front-end Software development</span>
-                <span  onClick={updateTechGallery}class="mb-2 bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300">Devops, application platforms, infrastructure and monitoring/observability</span>
-                <span  onClick={updateTechGallery}class="mb-2 bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300">Data</span>
-                <span  onClick={updateTechGallery}class="mb-2 bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300">AI and ML</span>
+        <div id="skills" class="sm:rounded-lg bg-primary-700 pb-10">
+            <h2 class="text-4xl font-extrabold text-white text-center p-2 mb-2">My professional skills</h2>
+
+            <div class="mx-auto w-5/6 md:w-4/6 lg:w-2/6 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg">
+                {
+                    skillsData.map(skill => {
+                        return (
+                            <a onClick={updateTechGallery} class="block w-full px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white">
+                                {skill.category}
+                            </a>
+                        )
+                    }) 
+                }
 
             </div>
 
-            <div class="grid grid-cols-3 md:grid-cols-6 gap-4 place-items-center h-56 mx-auto">
+            <div class="mx-auto flex justify-evenly m-2">
                 
                     {
                         
@@ -43,7 +45,7 @@ export default function Skills(){
                             let imgPath = "img/technologies/"+technology
                             return (
                                 <div>
-                                    <img class="max-w-24 rounded-lg" src={imgPath} alt="" />
+                                    <img class="max-w-16 md:max-w-24 rounded-lg" src={imgPath} alt="" />
                                 </div>
                             )      
                         })
@@ -52,7 +54,7 @@ export default function Skills(){
             </div>
 
 
-            <table class="table-auto w-full mx-auto text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 p-2">
+            <table class="table-auto w-full md:w-5/6 mx-auto text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 p-2">
                 
                 <tbody>
 

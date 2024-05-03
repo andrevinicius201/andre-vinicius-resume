@@ -42,7 +42,7 @@ export default [
         id:7,
         imgPath:"https://images.credly.com/size/680x680/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
         description:"AWS Certified Cloud Practitioner",
-        validationURL:"https://www.credly.com/earner/earned/badge/2b5b2db4-dd54-4c7e-83a5-8cd354f9e400"
+        validationURL:"https://www.credly.com/badges/bb78b4be-41c7-4b26-ba09-a6e935aa5e6f?source=linked_in_profile"
     },
     {
         id:0,
@@ -50,18 +50,18 @@ export default [
         description:"AWS - Serverless",
         validationURL:"https://www.credly.com/earner/earned/badge/c2bb9131-9ae4-420c-894e-6d91a6026b45"
     },
-    {
-        id:7,
-        imgPath:"https://images.credly.com/size/680x680/images/b3f32b39-40ec-48d9-a7cf-7ffbbc3d5549/image.png",
-        description:"AWS Tech U Graduate",
-        validationURL:"https://www.credly.com/badges/b7d70c21-6904-4ac5-8dda-5519be71cba2/linked_in_profile"
-    },
-    {
-        id:8,
-        imgPath:"https://images.credly.com/size/680x680/images/ee35f7c5-696e-47ca-895c-960dfba108b3/image.png",
-        description:"AWS Partner: Cloud Economics Accreditation",
-        validationURL:"https://www.credly.com/earner/earned/badge/033453b7-9584-4925-a957-671d50a278d3"
-    },
+    // {
+    //     id:7,
+    //     imgPath:"https://images.credly.com/size/680x680/images/b3f32b39-40ec-48d9-a7cf-7ffbbc3d5549/image.png",
+    //     description:"AWS Tech U Graduate",
+    //     validationURL:"https://www.credly.com/badges/b7d70c21-6904-4ac5-8dda-5519be71cba2/linked_in_profile"
+    // },
+    // {
+    //     id:8,
+    //     imgPath:"https://images.credly.com/size/680x680/images/ee35f7c5-696e-47ca-895c-960dfba108b3/image.png",
+    //     description:"AWS Partner: Cloud Economics Accreditation",
+    //     validationURL:"https://www.credly.com/earner/earned/badge/033453b7-9584-4925-a957-671d50a278d3"
+    // },
     {
         id:9,
         imgPath:"https://images.credly.com/size/680x680/images/b870667f-00a3-48d7-b988-9c02b441b883/image.png",
