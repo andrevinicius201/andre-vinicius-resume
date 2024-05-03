@@ -3,8 +3,8 @@ const imageList = ["node.png", "javascript.png", "python.png", "typescript.png"]
 const skillsData = [
     {
         category: "Back-end software development",
-        skillList: "Javascript (Node.js), Typescript, Python (FastAPI), Test-Driven Development (TDD), Jest JS. Practical experience applying SOLID, Clean Code and Domain-Driven Design (DDD) principles. Swagger API documentation",  
-        techImages: ["node.png", "javascript.png", "typescript.png", "fastapi.svg", "python.svg", "jest.svg"]
+        skillList: "Javascript (Node.js), Typescript, Python (FastAPI), Express, Fastify, NestJS, Test-Driven Development (TDD), Jest JS. Practical experience applying SOLID, Clean Code and Domain-Driven Design (DDD) principles. Swagger API documentation",  
+        techImages: ["node.png", "javascript.png", "typescript.png", "fastapi.svg", "python.svg", "nest.svg", "jest.svg"]
     },
     {
         category: "Cloud Applications and Integration Technologies",
