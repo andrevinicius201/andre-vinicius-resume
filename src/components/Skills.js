@@ -66,7 +66,7 @@ export default function Skills(){
                                         {skill.category}
                                     </th>
                                 
-                                    <td class="pl-2 py-4">
+                                    <td class="pl-2 pr-2 py-4">
                                         {skill.skillList}
                                     </td>  
 
