@@ -37,15 +37,15 @@ export default function Skills(){
 
             </div>
 
-            <div class="mx-auto flex justify-evenly m-2">
+            <div class="mx-auto flex justify-evenly flex-wrap m-2">
                 
                     {
                         
                         technologies.map(technology => {
                             let imgPath = "img/technologies/"+technology
                             return (
-                                <div>
-                                    <img class="max-w-16 md:max-w-24 rounded-lg" src={imgPath} alt="" />
+                                <div class="max-w-20 md:max-w-24 mt-2">
+                                    <img class="rounded-lg" src={imgPath} alt="" />
                                 </div>
                             )      
                         })
